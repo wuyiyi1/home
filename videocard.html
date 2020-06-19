@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset = "UTF-8">
+		<title>videocard</title>
+		<link rel="stylesheet" type="text/css" href="stylevideo.css" />
+	</head>
+	<body>
+		<div>
+			<!--main header of the page-->
+			<h1 id="main-header">Video Cards</h1>
+		</div>
+		<div class="top-links">
+			<a class="drop" href="index.html"> Home</a>
+			<a class="drop" href="about.html">About</a>
+			<a class="drop" href="videocard.html"> Video cards</a>
+			<a class="drop" href="soundcard.html"> Sound Cards</a>
+			<a class="drop" target="_blank" href="todayandfuture.html">Today and Future</a>
+			<a class="drop" target="_blank" href="references.html"> References</a>
+		</div>
+		<br/>
+		<div class="information">
+			<img id="roll-image" src="images/video_card.png" alt="videocard"/>
+			<h2>What are video cards?</h2> 
+			<p>A video card (also called a display card, graphics card, display adapter, or graphics adapter) is an expansion card which 
+			<b>generates a feed of output images to a display device.</b> It translates binary data from the CPU then <b>processes it into a picture 
+			to be visually seen by the computer user</b>. The CPU sends information to the video card about the texts or images used by the 
+			different computer programs. The video card creates those things using the pixels on the computer screen and the processed 
+			information will turn into texts or images and is sent to the monitor using a cable.</p>
+			<h3>Components:</h3> 
+			<a class="skip" href="#history">Skip to History</a>
+			<table id="components">
+				<tr>
+					<th>Component name</th>
+					<th id="middle">Functionality</th>
+					<th>Component</th>
+				</tr>
+				<tr>
+					<td class="leftcolumn">Graphics Processing Unit(GPU)</td>
+					<td>
+						<ul>
+							<li>a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the building of images in a 
+							frame buffer intended for output to a display</li>
+							<li>main part that does the computations on a video card</li>
+						</ul>
+					</td>
+					<td class="caption" id="gpu"></td>
+				</tr>
+				<tr>
+					<td class="leftcolumn">Heat Sink</td> 
+					<td>
+						<ul>
+							<li>mounted on most modern video cards</li>
+							<li>spreads out the heat produced by the GPU evenly throughout the heat sink and unit</li>
+							<li>often has a fan mounted as well to cool the heat sink and the GPU</li>
+							<li>Not all cards have heat sinks,as some cards are liquid-cooled and early cards did not produce much heat</li>
+							<li>most modern video cards need a proper thermal solution and a case has to be properly configured for thermal management.</li>
+						</ul>
+					</td>
+					<td class="caption" id="heatsink"></td>
+				</tr>
+				<tr>
+					<td class="leftcolumn">Video Bios</td>
+					<td>
+						<ul>
+							<li>contains a minimal program for the initial set up and control of the video card</li>
+							<li>may contain information on the memory timing, operating speeds and voltages of the graphics processor, RAM, and other details
+					          which can sometimes be changed</li>
+							<li>modern Video BIOS can only identify and initialize the card to display one of a few frame buffer or text display modes</li>
+						</ul>
+					</td>
+					<td class="caption" id="bios"></td>
+				</tr>
+				<tr>
+					<td class="leftcolumn"></td>
+					<td>
+						<ul>
+							<li>commonly known as the Video Random Access Memory (VRAM), is an essential feature of the video card</li>
+							<li>placed right next to the GPU and as the GPU creates images, the VRAM holds the data as well as the attributes of 
+							these images until it is time to display them</li>
+							<li>the memory that temporarily stores the video image is sometimes called the frame buffer and works faster 
+					        and provides faster access to data than a typical RAM becuase it can read and write data simultaneously.</li>
+						</ul>
+					</td>
+					<td class="caption" id="vram"></td>
+				</tr>
+				<tr>
+					<td class="leftcolumn">Ramdac</td>
+					<td>
+						<ul>
+							<li>The RAMDAC, or random-access-memory digital-to-analog converter converts digital signals to analog signals for use by a 
+							computer display that uses analog inputs such as cathode ray tube (CRT) displays</li>
+							<li>It is a kind of RAM chip that regulates the functioning of the graphics card</li>
+							<li>beacause of growing popularity of digital computer displays and the integration of the RAMDAC onto the GPU die, 
+					        it has mostly disappeared as a discrete component.</li>
+						</ul>
+					</td>
+					<td class="caption" id="ramdac"></td>
+				</tr>
+			</table>
+		</div>
+		<br/>
+		<div class="history-overview">
+			<h3><a id="history">History</a></h3>
+			<a class="skip" href="#today">Skip to bottom</a>
+			<br/>
+			<div class="timeline">
+				<div class="container left">
+					<div class="content">
+					<h4>1981</h4>
+					<p class="time-para">IBM released their first two video cards the Monochrome Display Adapter (MDA) and Color Graphics Adapter (CGA).</p>
+					<img class="time-img" src="images/mda.jpg" alt="IBM MDA"/>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content">
+						<h4>1982</h4>
+						<p class="time-para">Van Suwannukul developed Hercules Graphics Card. It both supported MDA compatible high resolution text mode and a 
+						monochrome graphics mode at the same time.</p>
+						<img class="time-img" src="images/hercules.png" alt="Hercules video card"/>
+					</div>
+				</div>
+				<div class="container left">
+					<div class="content">
+						<h4>1984</h4>
+						<p class="time-para">IBM introduced Professional Graphics Controller (PGC) and Enhanced Graphics Adapter (EGA). PGA was very advanced for its time as it 
+						can support 2D and 3D graphics acceleration for Computer Aided Design applications and offered higher resolution and color depth than EGA.</p>
+						<img class="time-img" src="images/pgc.jpg" alt="PGC"/>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content">
+						<h4>1987</h4>
+						<p class="time-para">IBM released video Graphics Array (VGA) which offered 640-480 / 16 (resolution/color) graphics mode and 256 KB of video memory. </p>
+						<img class="time-img" src="images/vga.jpg" alt="VGA"/>
+					</div>
+				</div>
+				<div class="container left">
+					<div class="content">
+						<h4>1988</h4>
+						<p class="time-para">SVGA was created by NEC, along with other corporations including ATI Technologies and Western Digital. SVGA enabled graphics display resolutions up to 800×600 pixels, 56% more pixels than VGA.</p>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content">
+						<h4>1995</h4>
+						<p class="time-para">2D and 3D cards were first released to the public which had the ability to illustrate multidimensional images. These were mainly developed by Creative, Matrox and ATI. </p>
+					</div>
+				</div>
+				<div class="container left">
+					<div class="content">
+						<h4>1997</h4>
+						<p class="time-para">Voodoo graphics chip was released which was widely accepted in gaming. It had 3D effects like Z-buffering, mip mapping and anti aliasing. Following Voodoo, came more 3D video cards from NVIDIA which are Voodoo2, TNT and TNT2.</p>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content">
+						<h4>2003</h4>
+						<p class="time-para"> ATI video card market has been reined by ATI and NVIDIA with their Radeon and GeForce lines respectively.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="components-today" id="today">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+/*styling body*/
+body{
+	margin:0;
+	color:white;
+}
+#page1{
+	height:100vh;
+}
+h1{
+	text-align:center;
+	font-size:5vw;
+}
+h2{
+	font-size:4vw;
+	text-align: center;
+	color:pink;
+}
+h3{
+	font-size:3vw;
+}
+h4{
+	font-size:2vw;
+}
+p{
+	font-family:gill sans, sans-serif;
+	font-size:1.5vw;
+}
+div{
+	padding:2%;
+}
+#page1{
+	background-image:url('images/futurebackground.jpg');
+	background-size:cover;
+}
+#mainheader{
+	padding:3%;
+}
+/*formatting link buttons*/
+.top-links{
+    background: linear-gradient(lightblue,green,turquoise);
+	width:14vw;
+	height:5vh;
+	border: .1vw solid green; 
+	border-radius: 2vw;
+	cursor: pointer; 
+	float: left; 
+	display: flex;
+	justify-content: center;
+	margin-right:4vw;
+}
+
+/*button style on hover*/
+.top-links:hover {
+	background: linear-gradient(lightblue,#50c878,turquoise);
+	text-decoration:underline;
+}
+/*button no hover*/
+.top-links{
+	color:white;
+	font-size:3vh;
+	text-decoration:none;
+	vertical-align: middle;
+}
+.container{
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	left: 25%;
+}
+#page2{
+	background-image:url('images/expansionfuture.jpg');
+	background-size:cover;
+}
+#page3{
+	background-image:url('images/futurevideo.jpg');
+	background-size:cover;
+}
+#page4{
+	background-image:url('images/futuresound.jpg');
+	background-size:cover;
+}
+#sound,tr,td,th{
+	position:relative;
+	border:1px solid white;
+	border-collapse: collapse;
+	margin:auto;
+	color:white;
+	font-size:1.5vw;
+	background-color:rgba(0,96,255,0.2);
+	text-align:left;
+	padding-left:1vw;
+}

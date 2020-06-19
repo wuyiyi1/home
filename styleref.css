@@ -1,0 +1,60 @@
+body{
+	background-image:url('images/referencebackground.png');
+	background-size:cover;
+}
+h1{
+	color:white;
+	text-align:center;
+	font-size:4vw;
+	text-shadow: 0 0 4vw red;
+}
+h2{
+	color:lightgreen;
+}
+.image-refs{
+	width: 70vw;
+	height:auto;
+	margin: auto;
+	background-color:rgba(106,13,173,0.3);
+	border:1px solid purple;
+	color: white;
+}
+h2{
+	text-align:center;
+}
+/*formatting link buttons*/
+a{
+    background: linear-gradient(violet,purple,violet);
+	width:7vw;
+	height:3vh;
+	border: .1vw solid violet; 
+	border-radius: 2vw;
+	cursor: pointer; 
+	float: left; 
+	display: flex;
+	justify-content: center;
+	margin-right:4vw;
+}
+
+/*button style on hover*/
+a:hover {
+	background: linear-gradient(magenta,violet,magenta);
+	text-decoration:underline;
+}
+/*button no hover*/
+a{
+	color:white;
+	font-size:2vh;
+	text-decoration:none;
+	vertical-align: middle;
+}
+.link{
+	padding:0 0 2vw 0;
+}
+.references{
+	width: 70vw;
+	height:auto;
+	margin: auto;
+	background-color:rgba(14,77,146,0.2);
+	border:1px solid blue;
+	color: white;

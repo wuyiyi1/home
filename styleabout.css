@@ -1,0 +1,129 @@
+/*styling the body*/
+body{
+  background-image: url('images/cover.jpg');
+  background-size: cover;
+  margin: 0;
+}
+/*styling main header at top of webpage*/
+#main-header{
+	font-size: 5vw;
+	padding:5vh 0vw 8vh 0vw;
+	margin: 0;
+	text-shadow: 0 2px 0 rgba(0,0,0,1);
+	animation: animate infinite 6s;
+	text-align: center;
+	font-family: Palatino, URW Palladio L, serif;
+}
+/*animation creating color changing text*/
+@keyframes animate{
+	0%{
+		color:magenta;
+		text-shadow: 1px 1px 1px #000, 3px 3px 5px pink; 
+	}
+	50%{
+		color:pink;
+		text-shadow: 1px 1px 1px #000, 3px 3px 5px coral;
+	}
+	100%{
+		color:#f2f2f2;
+		text-shadow: 1px 1px 1px #000, 3px 3px 5px #ffffff;
+	}
+}
+/*formatting buttons at the top*/
+.top-links a{
+  background-color: #842bd7; 
+  width:16.2vw;
+  height:4vh;
+  border: .1vw solid purple; 
+  cursor: pointer; 
+  float: left; 
+  display:flex;
+  justify-content:center;
+  margin:auto;
+}
+
+.top-links:after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.top-links:not(:last-child) {
+  border-right: none; 
+}
+
+/* Add a background color on hover */
+.drop:hover {
+  background-color: #d0b4dc;
+  text-decoration:underline;
+}
+.drop{
+	color:white;
+	font-size:3vh;
+	text-decoration:none;
+}
+.overview{
+	background-color:#b7e9f7;
+	width: 65vw;
+	padding: 3%;
+	margin: auto;
+	filter:drop-shadow(8px 16px 6px #3792cb);
+}
+/*styling headers*/
+h2{
+	font-size:2.5vw;
+}
+h3{
+	font-size: 2vw;
+}
+/*styling paragraphs and lists*/
+p,ul{
+	text-indent: 3vw;
+	font-size:1.5vw;
+}
+/*creating opacity filter*/
+@keyframes opacity-filter{
+	from {filter:opacity(0%);}
+	to {filter:opacity(100%);}
+}
+/*styling images at the top*/
+.image-group{
+	text-align: center;
+}
+.image:hover{
+	filter:drop-shadow(8px 16px 6px #f7c5b7);
+	transform: scale(1.1);
+}
+.image{
+	width: 15vw;
+	height: 20vh;
+	padding:3%;
+	display: inline-block;
+	vertical-align: middle;
+	margin:0 1em;
+	animation: opacity-filter 2s backwards;
+}
+/* Clearfix (clear floats) */
+.image-group::after {
+	text-align: center;
+	content: "";
+	clear: both;
+	display: table;
+}
+.link-style{
+	color:blue;
+}
+.link-style:active{
+	color:purple;
+}
+.link-style:visited{
+	color:purple;
+}
+
+
+
+
+ 
+
+
