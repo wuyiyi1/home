@@ -293,13 +293,18 @@ h4{
 	height: 70%;
 	position: relative;
 }
-.components-today{
+.bottom{
 	color: white;
 	background: rgba(255,50,70,0.5);
-	width: 65vw;
 	padding: 3%;
 	margin: auto;
 }
+.validator{	
+	border:0;
+	width:88px;
+	height:31px;
+	display:inline-block;
+}	
 
 
 
