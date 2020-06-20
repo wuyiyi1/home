@@ -6,11 +6,22 @@ body{
 	color: white;
 	font-size:1.5vw;
 }
-/*styling main header*/
+/*styling headers*/
 h1{
 	-webkit-text-stroke-width: 0.05vw;
 	-webkit-text-stroke-color: yellow;
 	animation:marquee infinite 6s;
+}
+h2{
+	font-size:2.5vw;
+	color: orange;
+}
+h3{
+	font-size:2vw;
+	color: #f4f186;
+}
+h4{
+	color: coral;
 }
 /*create animation of moving text from left to right*/
 @keyframes marquee {
@@ -106,7 +117,7 @@ ul{
 }
 .history-overview{
 	color: white;
-	background: rgba(255,50,70,0.5);
+	background: rgba(255,40,0,0.5);
 	width: 70vw;
 	padding: 3%;
 	margin: auto;
@@ -239,10 +250,6 @@ ul{
     left: 0%;
   }
 }
-h4{
-	font-size:1.5vw;
-	color: coral;
-}
 /*formatting information on timeline*/
 .time-para{
 	font-size: 1vw;
@@ -259,6 +266,7 @@ h4{
 	height: 30vw;
 	border:0;
 }
-.soundvideo{
+/*styling embedded webpage*/
+.soundweb{
 	height:30vw;
 }

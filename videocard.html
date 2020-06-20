@@ -1,7 +1,7 @@
 <!--document type-->
 <!doctype html>
 <!--language-->
-<html lang="en">
+<html lang="en" id="top">
 	<!--head with charset, title, and link to css-->
 	<head>
 		<meta charset = "UTF-8">
@@ -29,12 +29,14 @@
 			<img id="roll-image" src="images/video_card.png" alt="videocard"/>
 			<h2>What are video cards?</h2> 
 			<p>A video card (also called a display card, graphics card, display adapter, or graphics adapter) is an expansion card which 
-			<b>generates a feed of output images to a display device.</b> It translates binary data from the CPU then <b>processes it into a picture 
-			to be visually seen by the computer user</b>. The CPU sends information to the video card about the texts or images used by the 
+			generates a feed of output images to a display device. It translates binary data from the CPU then processes it into a picture 
+			to be visually seen by the computer user. The CPU sends information to the video card about the texts or images used by the 
 			different computer programs. The video card creates those things using the pixels on the computer screen and the processed 
 			information will turn into texts or images and is sent to the monitor using a cable.</p>
 			<h3>Components:</h3> 
-			<a class="skip" href="#history">Skip to History</a>
+			<div class="skip">
+				<a class="skipbtn" href="#history">Skip to History</a>
+			</div>
 			<!--table about the components of a video card-->
 			<table id="components">
 				<tr>
@@ -92,7 +94,7 @@
 					<td class="caption" id="vram"></td>
 				</tr>
 				<tr>
-					<td class="leftcolumn">Ramdac</td>
+					<td class="leftcolumn">RAMDAC</td>
 					<td>
 						<ul>
 							<li>The RAMDAC, or random-access-memory digital-to-analog converter converts digital signals to analog signals for use by a 
@@ -110,7 +112,9 @@
 		<!--section on the history of video cards-->
 		<div class="history-overview">
 			<h3><a id="history">History</a></h3>
-			<a class="skip" href="#validators">Skip to bottom</a>
+			<div class= "skip">
+				<a class="skipbtn" href="#bottom">Skip to bottom</a>
+			</div>
 			<br/>
 			<!--section for the timeline of video cards-->
 			<div class="timeline">
@@ -170,15 +174,17 @@
 				</div>
 			</div>
 		</div>
-		<div class="bottom" id="validators">
-			<p>
+		<!--section for validators-->
+		<div id="bottom">
+			<div class="skip">
+				<a class="skipbtn" id="lastbtn" href="#top">Jump to top of page</a>
+			</div>
 			<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwuyiyi1.github.io%2Fhome%2Fvideocard.html" target="_blank">
 				<img class="validator" src="images/html5semantics.png" alt="HTML5 and Semantics" />
 			</a>
 			<a href="https://jigsaw.w3.org/css-validator/validator?uri=wuyiyi1.github.io%2Fhome%2Fvideocard&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">
 				<img class="validator"  src="images/vcss.png" alt="Valid CSS!" />
 			</a>
-		</p>
 		</div>
 	</body>
 </html>

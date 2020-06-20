@@ -2,62 +2,80 @@
 body{
 	background-image:url('images/referencebackground.png');
 	background-size:cover;
+	color:white;
 }
 /*styling headers*/
 h1{
-	color:white;
 	text-align:center;
 	font-size:4vw;
 	text-shadow: 0 0 4vw red;
 }
 h2{
 	color:lightgreen;
+	text-align:center;
+}
+/*styling paragraph sizes*/
+p{
+	font-size:1vw;
 }
 .image-refs{
-	width: 70vw;
+	width: 68vw;
 	height:auto;
 	margin: auto;
 	background-color:rgba(106,13,173,0.3);
 	border:1px solid purple;
-	color: white;
+	padding:2%;
 }
-h2{
-	text-align:center;
-}
+
 /*formatting link buttons*/
-a{
-    background: linear-gradient(violet,purple,violet);
+.img, .ref{
 	width:7vw;
 	height:3vh;
-	border: .1vw solid violet; 
 	border-radius: 2vw;
 	cursor: pointer; 
 	float: left; 
 	display: flex;
 	justify-content: center;
 	margin-right:4vw;
-}
-
-/*button style on hover*/
-a:hover {
-	background: linear-gradient(magenta,violet,magenta);
-	text-decoration:underline;
-}
-/*button no hover*/
-a{
 	color:white;
 	font-size:2vh;
 	text-decoration:none;
 	vertical-align: middle;
 }
+/*button style on hover*/
+.img:hover {
+	background: linear-gradient(magenta,violet,magenta);
+	text-decoration:underline;
+}
+.ref:hover{
+	background: linear-gradient(lightblue,blue,lightblue);
+	text-decoration:underline;
+}
+/*button color not on hover*/
+.img{
+	background: linear-gradient(violet,purple,violet);
+	border: .1vw solid violet; 
+}
+.ref{
+	background:linear-gradient(blue,navy,blue);
+	border: .1vw solid lightblue; 
+}
+	
+/*styling all button sizes*/
 .link{
 	padding:0 0 2vw 0;
 }
+/*styling references box*/
 .references{
-	width: 70vw;
+	width: 68vw;
 	height:auto;
 	margin: auto;
 	background-color:rgba(14,77,146,0.2);
 	border:1px solid blue;
-	color: white;
+	padding:2vw;
 }
+.validator{	
+	width:10vw;
+	height:4vw;
+	display:inline-block;
+}	

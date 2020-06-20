@@ -12,7 +12,7 @@ body{
 	text-shadow: 0 2px 0 rgba(0,0,0,1);
 	animation: animate infinite 6s;
 	text-align: center;
-	font-family: Palatino, URW Palladio L, serif;
+	font-family: palatino, serif;
 }
 /*animation creating color changing text*/
 @keyframes animate{
@@ -120,6 +120,12 @@ p,ul{
 .link-style:visited{
 	color:purple;
 }
+
+.validator{	
+	width:10vw;
+	height:4vw;
+	display:inline-block;
+}	
 
 
 
