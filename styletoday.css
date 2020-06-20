@@ -3,12 +3,19 @@ body{
 	margin:0;
 	color:white;
 }
+/*styling the first page to fill up whole screen*/
 #page1{
 	height:100vh;
+	background-image:url('images/futurebackground.jpg');
+	background-size:cover;
 }
+/*styling headers*/
 h1{
 	text-align:center;
 	font-size:5vw;
+	border-radius:5vw;
+	background: linear-gradient(to right,purple,violet,magenta,pink,magenta,violet,purple);
+	padding: 3%;
 }
 h2{
 	font-size:4vw;
@@ -21,19 +28,14 @@ h3{
 h4{
 	font-size:2vw;
 }
+/*styling paragraphs*/
 p{
 	font-family:gill sans, sans-serif;
 	font-size:1.5vw;
 }
+/*styling sections*/
 div{
 	padding:2%;
-}
-#page1{
-	background-image:url('images/futurebackground.jpg');
-	background-size:cover;
-}
-#mainheader{
-	padding:3%;
 }
 /*formatting link buttons*/
 .top-links{
@@ -67,6 +69,7 @@ div{
 	position: absolute;
 	left: 25%;
 }
+/*styling other pages*/
 #page2{
 	background-image:url('images/expansionfuture.jpg');
 	background-size:cover;
@@ -79,6 +82,7 @@ div{
 	background-image:url('images/futuresound.jpg');
 	background-size:cover;
 }
+/*styling sound card table*/
 #sound,tr,td,th{
 	position:relative;
 	border:1px solid white;
@@ -87,6 +91,18 @@ div{
 	color:white;
 	font-size:1.5vw;
 	background-color:rgba(0,96,255,0.2);
+	text-align:left;
+	padding-left:1vw;
+}
+/*styling video card table*/
+#video,tr,td,th{
+	position:relative;
+	border:1px solid white;
+	border-collapse: collapse;
+	margin:auto;
+	color:white;
+	font-size:1.5vw;
+	background-color:rgba(0,0,0,0.2);
 	text-align:left;
 	padding-left:1vw;
 }

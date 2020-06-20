@@ -1,7 +1,9 @@
+/*styling body*/
 body{
 	background-image:url('images/referencebackground.png');
 	background-size:cover;
 }
+/*styling headers*/
 h1{
 	color:white;
 	text-align:center;
@@ -58,3 +60,4 @@ a{
 	background-color:rgba(14,77,146,0.2);
 	border:1px solid blue;
 	color: white;
+}
