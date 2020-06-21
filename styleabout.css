@@ -136,7 +136,7 @@ p,ul{
 #to-top a:hover{
 	background-color:pink;
 	text-decoration:underline;
-}
+}/*styling validators*/
 .validator{	
 	width:10vw;
 	height:4vw;

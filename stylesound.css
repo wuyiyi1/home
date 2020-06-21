@@ -47,7 +47,7 @@ h4{
 .top-links a{
     background: linear-gradient(to right,#D92826,#E15351);
 	width:16.2vw;
-	height:4vh;
+	height:2vw;
 	border: .1vw solid orange; 
 	cursor: pointer; 
 	float: left; 
@@ -72,7 +72,7 @@ h4{
 /*Navbar button no hover*/
 .drop{
 	color:white;
-	font-size:3vh;
+	font-size:1.5vw;
 	text-decoration:none;
 }
 .information{
@@ -277,7 +277,7 @@ ul{
 }
 #backbutton{
 	width:15vw;
-	height:6vh;
+	height:3vw;
 	border-radius: 2vw;
 	cursor: pointer;  
 	display: flex;

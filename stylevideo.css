@@ -25,7 +25,7 @@ body{
 .top-links a{
     background: linear-gradient(to right,navy,purple);
 	width:16.2vw;
-	height:4vh;
+	height:2vw;
 	border: .1vw solid pink; 
 	cursor: pointer; 
 	float: left; 
@@ -50,7 +50,7 @@ body{
 /*Navbar button no hover*/
 .drop{
 	color:white;
-	font-size:3vh;
+	font-size:1.5vw;
 	text-decoration:none;
 }
 /*Information section styling*/
@@ -87,13 +87,13 @@ body{
 #lastbtn{
 	margin:auto;
 }
-img{
+/*styling image*/
+#roll-image{
 	width: 40%;
 	height: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 50%;
     -webkit-transition: -webkit-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
 }
@@ -163,6 +163,7 @@ ul{
 	background-image:url('images/videobios.jpg');
 	background-size: 100% 100%;
 }
+/*styling history section*/
 .history-overview{
 	color: white;
 	background: rgba(255,50,70,0.5);

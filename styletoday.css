@@ -41,7 +41,7 @@ div{
 .top-links{
     background: linear-gradient(lightblue,green,turquoise);
 	width:14vw;
-	height:5vh;
+	height:2vw;
 	border: .1vw solid green; 
 	border-radius: 2vw;
 	cursor: pointer; 
@@ -59,7 +59,7 @@ div{
 /*button no hover*/
 .top-links{
 	color:white;
-	font-size:3vh;
+	font-size:1.5vw;
 	text-decoration:none;
 	vertical-align: middle;
 }
@@ -68,6 +68,30 @@ div{
 	display: inline-block;
 	position: absolute;
 	left: 23%;
+}
+/*styling button to return to top*/
+#to-home{
+	padding:4vw 0 4vw 0;
+}
+#backbutton{
+	width:22vw;
+	height:4vw;
+	border-radius: 3vw;
+	cursor: pointer;  
+	display: flex;
+	justify-content: center;
+	color:white;
+	font-size:3vw;
+	text-decoration:none;
+	background: linear-gradient(#ff9933,orange,#ff9933);
+	border: .1vw solid pink; 
+	margin:auto;
+	margin-top:12vh;
+}
+#backbutton:hover{
+	background: linear-gradient(#ffe233,#ff9933,#ffe233);
+	border: .1vw solid violet; 
+	text-decoration:underline;
 }
 /*styling other pages*/
 #page2{

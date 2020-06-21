@@ -18,6 +18,25 @@ h2{
 p{
 	font-size:1vw;
 }
+/*styling button to go back to home*/
+#backbutton{
+	width:15vw;
+	height:3vw;
+	border-radius: 3vw;
+	cursor: pointer;  
+	display: flex;
+	justify-content: center;
+	color:white;
+	font-size:2vw;
+	text-decoration:none;
+	background: linear-gradient(pink,red,pink);
+	border: .1vw solid pink; 
+}
+#backbutton:hover{
+	background: linear-gradient(coral,pink,coral);
+	border: .1vw solid violet; 
+	text-decoration:underline;
+}
 .image-refs{
 	width: 68vw;
 	height:auto;
