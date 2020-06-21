@@ -50,7 +50,6 @@ div{
 	justify-content: center;
 	margin-right:4vw;
 }
-
 /*button style on hover*/
 .top-links:hover {
 	background: linear-gradient(lightblue,#50c878,turquoise);
@@ -136,7 +135,6 @@ th{
 #validators{
 	background-color:blue;
 }
-
 .validator{	
 	width:10vw;
 	height:4vw;
