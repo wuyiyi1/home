@@ -111,6 +111,7 @@ p,ul{
 	clear: both;
 	display: table;
 }
+/*styling links*/
 .link-style{
 	color:blue;
 }
@@ -120,7 +121,7 @@ p,ul{
 .link-style:visited{
 	color:purple;
 }
-/*styling link to go back to top of page*/
+/*styling link button to go back to top of page*/
 #to-top a{
 	background-color:magenta;
 	width:12vw;

@@ -87,10 +87,10 @@ div{
 	border: .1vw solid pink; 
 	margin:auto;
 	margin-top:12vh;
+	border: .1vw solid #ff9933; 
 }
 #backbutton:hover{
 	background: linear-gradient(#ffe233,#ff9933,#ffe233);
-	border: .1vw solid violet; 
 	text-decoration:underline;
 }
 /*styling other pages*/

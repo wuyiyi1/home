@@ -61,30 +61,32 @@ p{
 	text-decoration:none;
 	vertical-align: middle;
 }
-/*button style on hover*/
+/*image source button style on hover*/
 .img:hover {
 	background: linear-gradient(magenta,violet,magenta);
 	text-decoration:underline;
 }
+/*reference button style on hover*/
 .ref:hover{
 	background: linear-gradient(lightblue,blue,lightblue);
 	text-decoration:underline;
 }
-/*button color not on hover*/
+/*image source button color not on hover*/
 .img{
 	background: linear-gradient(violet,purple,violet);
 	border: .1vw solid violet; 
 }
+/*reference source button not on hover*/
 .ref{
 	background:linear-gradient(blue,navy,blue);
 	border: .1vw solid lightblue; 
 }
 	
-/*styling all button sizes*/
+/*styling all button link sizes*/
 .link{
 	padding:0 0 2vw 0;
 }
-/*styling references box*/
+/*styling references sections*/
 .references{
 	width: 68vw;
 	height:auto;
